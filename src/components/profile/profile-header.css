@@ -1,0 +1,25 @@
+.profile-header {
+  border: solid;
+  display: flex;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.profile-header > div {
+  border: solid green;
+  display: flex;
+}
+
+.profile-header > ul {
+  border: solid;
+  flex-grow: 1;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: end;
+}
+
+.profile-header > ul > li {
+  list-style-type: none;
+}
+

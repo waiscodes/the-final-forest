@@ -7,6 +7,7 @@ import Dashboard from "./pages/Dashboard";
 import PrivateRoute from "./pages/PrivateRoute";
 import Landing from "./pages/Landing";
 import Navbar from './components/Navbar/Navbar';
+import ProfilePage from './pages/ProfilePage';
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
           <Container className='container'>
             <Switch>
               <PrivateRoute path='/home' component={Dashboard} />
+              <PrivateRoute path='/profile' component={ProfilePage} />
               <Route exact path='/' component={Landing} />
             </Switch>
           </Container>
