@@ -1,0 +1,39 @@
+header {
+  border: solid;
+}
+
+header > nav {
+  max-width: 1000px;
+  margin: auto;
+  border: solid pink;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-navbar > ul {
+  border: solid green;
+  padding: 0px;
+  display: flex;
+  margin: 0px;
+}
+
+.main-navbar > ul > li {
+  list-style-type: none;
+  padding: none;
+  margin: none;
+  margin-left: 15px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.logo {
+  border: solid;
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+.log-button {
+  background: green;
+}
+

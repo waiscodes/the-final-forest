@@ -5,15 +5,15 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import Dashboard from "./pages/Dashboard";
 import PrivateRoute from "./pages/PrivateRoute";
-import MyNavbar from "./components/templates/Navbar";
 import Landing from "./pages/Landing";
+import Navbar from './components/Navbar/Navbar';
 
 const App = () => {
   return (
     <>
       <Router>
         <AuthProvider>
-          <MyNavbar />
+          <Navbar />
           <Container className='container'>
             <Switch>
               <PrivateRoute path='/home' component={Dashboard} />
